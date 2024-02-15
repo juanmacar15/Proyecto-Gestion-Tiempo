@@ -1,0 +1,33 @@
+.contenedor1{
+    margin-top: 70px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    padding-left: 300px;
+}
+
+.h1-color{
+    color: #6dd0a7;
+}
+
+.contenedor1 h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    
+}
+
+.contenedor1 .btn-ingresar{
+    margin: 90px 0 0 500px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contenedor2{
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-right: 300px;    
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+}
+
+body{
+    width: 100%;
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+
+
+h1{
+    padding-top: 20px;
+    font-size: 5em;
+}
+
+/* Botones */
+
+a{
+    text-decoration: none;
+    padding: 20px 60px;
+    background-color: #6161ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: #4949b9;
+    /* box-shadow: 0 4px 16px rgb(13, 7, 39); */
+    transition: all 0.3s ease;
+}

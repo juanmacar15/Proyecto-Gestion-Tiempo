@@ -1,0 +1,181 @@
+/* todo los que se encuentra en el contenedor 1*/
+
+.main .contenedor1{
+    width: 20%;
+    padding: 10px;
+}
+
+.content1 h2{
+    font-size: 2.5em;
+    padding-bottom: 40px;
+}
+
+.contenedor1 .content1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.contenedor1 .content1 a{
+    text-decoration: none;
+    padding: 20px 60px;
+    background-color: transparent;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.content1 a:hover{
+
+    color: white;
+    background-color: #6dd0a7;
+    transition: all 0.2s;
+}
+
+.caja-edad{
+    padding: 20px 60px;
+    margin-bottom: 20px;
+    border-radius: 15px ;
+    transition: .2s all;
+}
+
+.btn-seleccionado{
+    border: solid;
+    border-color: #6dd0a7;
+}
+
+
+/* todo los que se enceuntra en el contenedor 2*/
+
+.main .contenedor2{
+    width: 80%;
+    /* background-color: rgba(0, 0, 255, 0.405); */
+}
+
+.contenedor2 .content2 {
+    /* background-color: blueviolet; */
+    margin: 0 60px 0 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+.content2 .caja1{
+    display: flex;
+}
+
+
+.info-cajas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin: 5px;   
+}
+
+.info-cajas:hover{
+    border: 1px;
+    border: solid;
+    border-color: #6dd0a7;
+    border-radius: 3px;
+}
+
+.info-cajas a{
+    color: black;
+}
+
+.content2 .caja2{
+    margin-top: 30px;
+    display: flex;
+}
+
+
+.caja2 .info-cajas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+}
+
+
+.info-cajas img{
+    width: 100%;
+    height: 254px;
+}
+
+
+
+.link-video{
+    padding: 0;
+    background-color: transparent;
+    color: black;
+}
+
+.link-video:hover{
+    padding: 0;
+    color: #6dd0a7 !important ; 
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*estilos del mensaje informativo*/
+
+.content2 .mensaje2{
+    padding: 100px 0 0 90px !important;
+    font-size: 2em !important;
+}
+
+.content2 .mensaje{
+    padding: 290px 0 0 90px;
+    font-size: 2.5em;
+    
+}
+
+
+.resaltar{
+    color: #6dd0a7;
+}
+
+/*bajar el boton de inicio en el panel de control*/
+
+.btn-bajar{
+    margin-top: 150px;
+}
+.btn-bajar2{
+    margin-top: 50px;
+}
+
+/*btn de Cerrar sesion*/
+
+.espacio-h1{
+    margin-left: 450px !important;
+}
+
+.cerrar-sesion{
+    margin-top: 50px !important;
+    margin-left: 400px !important;
+}
+
+
+
+
+/*espacio de la magen del dashboard*/
+
+.mover-imagen{
+    margin: 50px 0 0 200px;
+}

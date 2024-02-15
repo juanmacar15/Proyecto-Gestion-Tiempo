@@ -1,0 +1,80 @@
+/* todo los que se enceuntra en el contenedor 1*/
+.main .contenedor1{
+    width: 40%;
+    padding: 10px;
+}
+
+.content1 h2{
+    font-size: 2.5em;
+    padding-bottom: 40px;
+}
+
+.contenedor1 .content1{
+    margin: 0 200px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenedor1 .content1 a{
+    text-decoration: none;
+    padding: 20px 60px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.content1 a:hover{
+
+    color: white;
+    background-color: #6dd0a7;
+    transition: all 0.2s;
+}
+
+.caja-edad{
+    padding: 20px 60px;
+    margin-bottom: 20px;
+    border-radius: 15px ;
+    transition: .2s all;
+}
+
+
+/* todo los que se enceuntra en el contenedor 2*/
+.main .contenedor2{
+    width: 60%;
+    padding: 10px;
+}
+
+.contenedor2 .content2 {
+    margin: 0 100px 0 0;
+    padding-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content2 h2{
+    font-size: 4em;
+    padding-bottom: 30px;
+}
+
+.content2 p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.span-color{
+    color: #6dd0a7;
+}
+
+/* Contenedor 3 */
+
+.content3{
+    display:flex;
+    justify-content: flex-start;
+    margin: 130px 100px 0 0;
+}
